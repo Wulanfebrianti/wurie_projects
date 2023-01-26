@@ -1,4 +1,4 @@
-import 'package:chata/SplashScreen.dart';
+import 'package:chata/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 
