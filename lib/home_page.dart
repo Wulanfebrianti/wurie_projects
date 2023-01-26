@@ -1,4 +1,4 @@
-import 'package:chata/ChatPage.dart';
+import 'package:chata/chat_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
