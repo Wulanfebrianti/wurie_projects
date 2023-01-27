@@ -1,7 +1,7 @@
 import 'dart:async';
+import 'package:chata/screen/login_signup.dart';
 import 'package:flutter/material.dart';
 
-import 'home_page.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
     var duration = const Duration(seconds: 5);
     return Timer(duration, () {
       Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) {
-        return HomePage();
+        return LoginSignupScreen();
       }));
     });
   }
