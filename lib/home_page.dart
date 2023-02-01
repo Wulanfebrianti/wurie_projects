@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import 'package:chata/BotomNav/navbar.dart';
+=======
+>>>>>>> 54cec9e91987500f6a3fbceb1993ef331a990bfd
 import 'package:chata/chat_page.dart';
 import 'package:flutter/material.dart';
 

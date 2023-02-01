@@ -1,7 +1,13 @@
 import 'dart:async';
+<<<<<<< HEAD
 import 'package:chata/screen/login_signup.dart';
 import 'package:flutter/material.dart';
 
+=======
+import 'package:flutter/material.dart';
+
+import 'home_page.dart';
+>>>>>>> 54cec9e91987500f6a3fbceb1993ef331a990bfd
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
