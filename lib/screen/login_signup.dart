@@ -1,4 +1,3 @@
-
 import 'package:chata/config/palette.dart';
 import 'package:flutter/material.dart';
 
@@ -193,7 +192,7 @@ class _LoginSignupScreenState extends State<LoginSignupScreen> {
       margin: EdgeInsets.only(top: 20),
       child: Column(
         children: [
-          buildTextField(Icons.mail_outline, "info@demouri.com", false, true),
+          buildTextField(Icons.mail_outline, "info@gmail.com", false, true),
           buildTextField(
               Icons.lock, "**********", true, false),
           Row(
