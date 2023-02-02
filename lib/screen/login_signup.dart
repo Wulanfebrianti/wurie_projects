@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 54cec9e91987500f6a3fbceb1993ef331a990bfd
 import 'package:chata/config/palette.dart';
 import 'package:flutter/material.dart';
 
@@ -174,12 +171,16 @@ class _LoginSignupScreenState extends State<LoginSignupScreen> {
             left: 0,
             child: Column(
               children: [
-                // Text(isSignupScreen ? "Or Signup with" : "Or Signin with"),
+                Text(isSignupScreen ? "Or Signup with" : "Or Signin with"),
                 Container(
                   margin: EdgeInsets.only(right: 20, left: 20, top: 15),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
+                      // buildTextButton(MaterialCommunityIcons.facebook,
+                      //     "Facebook", Palette.facebookColor),
+                      // buildTextButton(MaterialCommunityIcons.google_plus,
+                      //     "Google", Palette.googleColor),
                     ],
                   ),
                 )
@@ -196,11 +197,9 @@ class _LoginSignupScreenState extends State<LoginSignupScreen> {
       margin: EdgeInsets.only(top: 20),
       child: Column(
         children: [
-<<<<<<< HEAD
           buildTextField(Icons.mail_outline, "info@gmail.com", false, true),
-=======
           buildTextField(Icons.mail_outline, "info@demouri.com", false, true),
->>>>>>> 54cec9e91987500f6a3fbceb1993ef331a990bfd
+
           buildTextField(
               Icons.lock, "**********", true, false),
           Row(
@@ -352,7 +351,7 @@ class _LoginSignupScreenState extends State<LoginSignupScreen> {
           side: BorderSide(width: 1, color: Colors.grey),
           minimumSize: Size(145, 40),
           shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+          RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
           primary: Colors.white,
           backgroundColor: backgroundColor),
       child: Row(
@@ -396,21 +395,21 @@ class _LoginSignupScreenState extends State<LoginSignupScreen> {
               ]),
           child: !showShadow
               ? Container(
-                  decoration: BoxDecoration(
-                        color: Colors.indigo,
-                        borderRadius: BorderRadius.circular(30),
-                      boxShadow: [
-                        BoxShadow(
-                            color: Colors.black.withOpacity(.3),
-                            spreadRadius: 1,
-                            blurRadius: 2,
-                            offset: Offset(0, 1))
-                      ]),
-                  child: Icon(
-                    Icons.arrow_forward,
-                    color: Colors.white,
-                  ),
-                )
+            decoration: BoxDecoration(
+                color: Colors.indigo,
+                borderRadius: BorderRadius.circular(30),
+                boxShadow: [
+                  BoxShadow(
+                      color: Colors.black.withOpacity(.3),
+                      spreadRadius: 1,
+                      blurRadius: 2,
+                      offset: Offset(0, 1))
+                ]),
+            child: Icon(
+              Icons.arrow_forward,
+              color: Colors.white,
+            ),
+          )
               : Center(),
         ),
       ),
