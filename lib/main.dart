@@ -1,5 +1,5 @@
-
 import 'package:chata/profile.dart';
+import 'package:chata/screen/feed_screen.dart';
 import 'package:chata/screen/login_signup.dart';
 import 'package:chata/splash_screen.dart';
 import 'package:flutter/material.dart';
@@ -18,9 +18,14 @@ class MyApp extends StatelessWidget {
       // home: SplashScreen(),
       // home: HomePage(),
       // home: MyNavBar(),
-      home: ProfilePage(),
+      // home: ProfilePage(),
+      // home: SettingsPage(),
+      home: FeedScreen(),
     );
   }
 }
+
+
+
 
 
